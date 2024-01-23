@@ -16,6 +16,9 @@ li {
 
 /* NAVBAR STYLING STARTS */
 .navbar {
+    position:fixed;
+    z-index:100;  
+    top:0 ;left:0; right:0;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -124,6 +127,7 @@ input[type=checkbox]:checked ~ .menu{
 .intro{
     width: 50%;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .intro p{
@@ -208,6 +212,7 @@ input[type=checkbox]:checked ~ .menu{
 .main{
     margin-top: 20px;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .main img{
@@ -220,5 +225,6 @@ input[type=checkbox]:checked ~ .menu{
     display: inline-block;
     position: absolute;
     margin-left: 10px;
+  
 }
 
