@@ -1,9 +1,11 @@
 /* UTILITIES */
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
+
 body {
  font-family: cursive;
 }
@@ -13,7 +15,32 @@ a {
 li {
  list-style: none;
 }
-
+#change-color-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #change-color-btn:hover {
+    background-color: #0069d9;
+  }
+  
+  .color-1 {
+    background-color: #f2f2f2;
+  }
+  
+  .color-2 {
+    background-color: #d3d3d3;
+  }
+  
+  .color-3 {
+    background-color: #a9a9a9;
+  }
 /* NAVBAR STYLING STARTS */
 .navbar {
     position:fixed;
