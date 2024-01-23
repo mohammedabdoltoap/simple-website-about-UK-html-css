@@ -6,3 +6,10 @@ You can view the website by clicking the link bellow
 if you want to see Bothina's editing click the link bellow
 - [click me](https://bothina-yousof.github.io/simple-website-about-UK-html-css/culture.html)
 
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
