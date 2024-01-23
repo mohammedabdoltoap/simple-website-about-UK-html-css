@@ -21,13 +21,13 @@ li {
     right: 20px;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color:  rgb(38, 117, 174);
     color: #fff;
     cursor: pointer;
   }
   
   #change-color-btn:hover {
-    background-color: #0069d9;
+    background-color:#e278cf;
   }
   
   .color-1 {
