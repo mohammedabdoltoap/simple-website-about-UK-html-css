@@ -1,9 +1,11 @@
 /* UTILITIES */
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
+
 body {
  font-family: cursive;
 }
@@ -13,14 +15,44 @@ a {
 li {
  list-style: none;
 }
-
+#change-color-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color:  rgb(38, 117, 174);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #change-color-btn:hover {
+    background-color:#e278cf;
+  }
+  
+  .color-1 {
+    background-color: #f2f2f2;
+  }
+  
+  .color-2 {
+    background-color: #d3d3d3;
+  }
+  
+  .color-3 {
+    background-color: #a9a9a9;
+  }
 /* NAVBAR STYLING STARTS */
 .navbar {
+    position:fixed;
+    z-index:100;  
+    top:0 ;left:0; right:0;
  display: flex;
  align-items: center;
  justify-content: space-between;
  padding: 20px;
- background-color: rgb(16, 16, 209);
+
+ background-color: rgb(38, 117, 174);
+
   /* AHMED NASR */
  color: #fff;
 }
@@ -38,7 +70,7 @@ li {
  font-size: 18px;
 }
 .menu li:hover {
- background-color: #4c9e9e;
+ background-color: #e278cf;
  border-radius: 5px;
  transition: 0.3s ease;
 }
@@ -50,7 +82,7 @@ li {
  position: relative; 
 }
 .dropdown {
- background-color: rgb(1, 139, 139);
+ background-color: rgb(38, 117, 174);
  padding: 1em 0;
  position: absolute; 
  display: none;
@@ -66,7 +98,7 @@ li {
  text-align: center;
 }
 .dropdown li:hover {
- background-color: #4c9e9e;
+ background-color: #e278cf;
 }
 .services:hover .dropdown {
  display: block;
@@ -124,6 +156,7 @@ input[type=checkbox]:checked ~ .menu{
 .intro{
     width: 50%;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .intro p{
@@ -208,6 +241,7 @@ input[type=checkbox]:checked ~ .menu{
 .main{
     margin-top: 20px;
     padding: 10px;
+    margin-top: 80px;
 }
 
 .main img{
@@ -220,5 +254,6 @@ input[type=checkbox]:checked ~ .menu{
     display: inline-block;
     position: absolute;
     margin-left: 10px;
+  
 }
 
